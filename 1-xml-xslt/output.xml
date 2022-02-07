@@ -39,6 +39,14 @@
         <name>monitor</name>
         <name>židle</name>
     </sorted>
+    <sorted2>
+        <name>Corsair memory</name>
+        <name>Intel Pentium</name>
+        <name>monitor</name>
+        <name>nVidia</name>
+        <name>Seagate</name>
+        <name>židle</name>
+    </sorted2>
     <filtered_by_price>
         <name>Intel Pentium - 4999</name>
         <name>nVidia - 2500</name>
@@ -49,4 +57,11 @@
         <name>Corsair memory</name>
         <name>nVidia</name>
     </filtered_by_char>
+    <filtered_by_char_extended>
+        <name>Intel Pentium</name>
+        <name>Corsair memory</name>
+        <name>nVidia</name>
+        <name>židle</name>
+        <name>monitor</name>
+    </filtered_by_char_extended>
 </data>
