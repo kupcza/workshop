@@ -7,9 +7,15 @@
             <flat>
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
-                        <name>
-                            <xsl:value-of select="./name"/>
-                        </name>
+                        <item>
+                            <name>
+                                <xsl:value-of select="./name"/> (<xsl:value-of select="./type"/> / <xsl:value-of select="./brand"/>) - <xsl:value-of select="./description"/>
+                            </name>
+                            <price><xsl:value-of select="concat(./price, ./currency)"/></price>
+                            <params>
+                                <xsl:for-each select="./params/*"><xsl:value-of select="local-name(.)"/>: <xsl:value-of select="."/>, </xsl:for-each>
+                            </params>
+                        </item>
                     </xsl:for-each>
                 </xsl:for-each>
             </flat>
@@ -26,7 +32,7 @@
                 </xsl:for-each>
             </sorted>
 
-            <filtered>
+            <filtered_by_price>
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
                         <xsl:if test="./price &lt; 5000">
@@ -36,7 +42,7 @@
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:for-each>
-            </filtered>
+            </filtered_by_price>
 
             <filtered_by_char>
                 <xsl:for-each select="computer/*">
