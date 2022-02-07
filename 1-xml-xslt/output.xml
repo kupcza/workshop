@@ -1,0 +1,52 @@
+<data>
+    <flat>
+        <item>
+            <name>Intel Pentium (processor / Intel) - Some description stuff</name>
+            <price>4999CZK</price>
+            <params>sn: 879843265716054, speed: 5GHz, </params>
+        </item>
+        <item>
+            <name>Seagate (ssd / Ironwolf) - Some description stuff</name>
+            <price>8000CZK</price>
+            <params>capacity: 8000GB, sn: 1489526870535645, </params>
+        </item>
+        <item>
+            <name>Corsair memory (memory / Corsair) - Some description stuff</name>
+            <price>8410CZK</price>
+            <params>capacity: 2x16GB, sn: 1489526889755645, </params>
+        </item>
+        <item>
+            <name>nVidia (graphic card / nVidia) - Some description stuff</name>
+            <price>2500CZK</price>
+            <params>sn: 1489526889755645, model: xxx, </params>
+        </item>
+        <item>
+            <name>židle ( / ) - Spinalis</name>
+            <price>34000CZK</price>
+            <params/>
+        </item>
+        <item>
+            <name>monitor ( / ) - Dell</name>
+            <price>380EUR</price>
+            <params/>
+        </item>
+    </flat>
+    <sorted>
+        <name>Corsair memory</name>
+        <name>Intel Pentium</name>
+        <name>nVidia</name>
+        <name>Seagate</name>
+        <name>monitor</name>
+        <name>židle</name>
+    </sorted>
+    <filtered_by_price>
+        <name>Intel Pentium - 4999</name>
+        <name>nVidia - 2500</name>
+        <name>monitor - 380</name>
+    </filtered_by_price>
+    <filtered_by_char>
+        <name>Seagate</name>
+        <name>Corsair memory</name>
+        <name>nVidia</name>
+    </filtered_by_char>
+</data>
