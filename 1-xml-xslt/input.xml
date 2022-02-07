@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<computer>
+    <components>
+        <component>
+            <type>processor</type>
+            <name>Intel Pentium</name>
+            <decription>Some description stuff</decription>
+            <brand>Intel</brand>
+            <price>4999</price>
+            <params>
+                <sn>879843265716054</sn>
+                <speed>5GHz</speed>
+            </params>
+        </component>
+        <component>
+            <type>ssd</type>
+            <name>Seagate</name>
+            <decription>Some description stuff</decription>
+            <brand>Ironwolf</brand>
+            <price>8000</price>
+            <params>
+                <capacity>8000GB</capacity>
+                <sn>1489526870535645</sn>
+            </params>
+        </component>
+        <component>
+            <type>memory</type>
+            <name>Corsair memory</name>
+            <decription>Some description stuff</decription>
+            <brand>Corsair</brand>
+            <price>8410</price>
+            <params>
+                <capacity>2x16GB</capacity>
+                <sn>1489526889755645</sn>
+            </params>
+        </component>
+        <component>
+            <type>graphic card</type>
+            <name>nVidia</name>
+            <decription>Some description stuff</decription>
+            <brand>nVidia</brand>
+            <price>2500</price>
+            <params>
+                <sn>1489526889755645</sn>
+                <model>xxx</model>
+            </params>
+        </component>
+    </components>
+    <accessories>
+        <accesory>
+            <name>židle</name>
+            <description>Spinalis</description>
+            <price>34000</price>
+        </accesory>
+        <accesory>
+            <name>monitor</name>
+            <description>Dell</description>
+            <price>12800</price>
+        </accesory>
+    </accessories>
+</computer>
