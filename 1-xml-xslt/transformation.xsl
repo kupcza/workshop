@@ -32,6 +32,16 @@
                 </xsl:for-each>
             </sorted>
 
+            <sorted2>
+                <xsl:for-each select="computer/*/*">
+                        <xsl:sort select="translate(name, 'abcčdďefghijklmnopqrřsštťuvwxyzž','ABCČDĎEFGHIJKLMNOPQRŘSŠTŤUVWXYZŽ')" order="ascending"/>
+                        
+                        <name>
+                            <xsl:value-of select="./name"/>
+                        </name>
+                    </xsl:for-each>
+            </sorted2>
+
             <filtered_by_price>
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
