@@ -65,6 +65,18 @@
                     </xsl:for-each>
                 </xsl:for-each>
             </filtered_by_char>
+
+            <filtered_by_char_extended>
+                <xsl:for-each select="computer/*">
+                    <xsl:for-each select="./*">
+                        <xsl:if test="contains(./name, 'i') or contains(./name, 'I')">
+                            <name>
+                                <xsl:value-of select="./name"/>
+                            </name>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:for-each>
+            </filtered_by_char_extended>
         </data>
 
     </xsl:template>
