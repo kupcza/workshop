@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <data>
     <flat>
         <name>Intel Pentium</name>
@@ -20,4 +19,9 @@
         <name>Intel Pentium - 4999</name>
         <name>nVidia - 2500</name>
     </filtered>
+    <filtered_by_char>
+        <name>Seagate - 8000</name>
+        <name>Corsair memory - 8410</name>
+        <name>nVidia - 2500</name>
+    </filtered_by_char>
 </data>
