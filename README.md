@@ -4,7 +4,8 @@
  - output.xml - output file
 
 # How to setup jetbrains translation
-[jetbrains help](https://www.jetbrains.com/help/idea/xslt-run-configurations.html#create_run_config) with images :-)
+[phpstorm help](https://www.jetbrains.com/help/idea/xslt-run-configurations.html#create_run_config) with images :-)
+[webstorm help](https://www.jetbrains.com/help/webstorm/xslt-run-configurations.html#create_run_config) with images :-)
 
 1. create new debug configuration
 2. type xslt
