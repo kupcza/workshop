@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        attributeFormDefault="unqualified"
+        elementFormDefault="qualified"
+        xmlns="http://jpower8.com/workshop/soap"
+        targetNamespace="http://jpower8.com/workshop/soap"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="WorkshopReq" type="computerType"/>
+  <xs:complexType name="paramsType">
+    <xs:sequence>
+      <xs:element name="capacity" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="sn">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="speed" minOccurs="0"/>
+      <xs:element type="xs:string" name="model" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="componentType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="processor"/>
+            <xs:enumeration value="ssd"/>
+            <xs:enumeration value="memory"/>
+            <xs:enumeration value="graphic card"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel Pentium"/>
+            <xs:enumeration value="Seagate"/>
+            <xs:enumeration value="Corsair memory"/>
+            <xs:enumeration value="nVidia"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="description"/>
+      <xs:element name="brand">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel"/>
+            <xs:enumeration value="Ironwolf"/>
+            <xs:enumeration value="Corsair"/>
+            <xs:enumeration value="nVidia"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4999"/>
+            <xs:enumeration value="8000"/>
+            <xs:enumeration value="8410"/>
+            <xs:enumeration value="2500"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="currency"/>
+      <xs:element type="paramsType" name="params"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="componentsType">
+    <xs:sequence>
+      <xs:element type="componentType" name="component" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="accesoryType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="židle"/>
+            <xs:enumeration value="monitor"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="description">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Spinalis"/>
+            <xs:enumeration value="Dell"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="34000"/>
+            <xs:enumeration value="380"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="currency">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="CZK"/>
+            <xs:enumeration value="EUR"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="accessoriesType">
+    <xs:sequence>
+      <xs:element type="accesoryType" name="accesory" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="computerType">
+    <xs:sequence>
+      <xs:element type="componentsType" name="components"/>
+      <xs:element type="accessoriesType" name="accessories"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

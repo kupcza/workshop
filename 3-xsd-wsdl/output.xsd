@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        attributeFormDefault="unqualified"
+        elementFormDefault="qualified"
+        xmlns="http://jpower8.com/workshop/soap"
+        targetNamespace="http://jpower8.com/workshop/soap"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="WorkshopRes" type="dataType"/>
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel Pentium (processor / Intel) - Some description stuff"/>
+            <xs:enumeration value="Seagate (ssd / Ironwolf) - Some description stuff"/>
+            <xs:enumeration value="Corsair memory (memory / Corsair) - Some description stuff"/>
+            <xs:enumeration value="nVidia (graphic card / nVidia) - Some description stuff"/>
+            <xs:enumeration value="židle ( / ) - Spinalis"/>
+            <xs:enumeration value="monitor ( / ) - Dell"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4999CZK"/>
+            <xs:enumeration value="8000CZK"/>
+            <xs:enumeration value="8410CZK"/>
+            <xs:enumeration value="2500CZK"/>
+            <xs:enumeration value="34000CZK"/>
+            <xs:enumeration value="380EUR"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="params">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="sn: 879843265716054, speed: 5GHz,"/>
+            <xs:enumeration value="capacity: 8000GB, sn: 1489526870535645,"/>
+            <xs:enumeration value="capacity: 2x16GB, sn: 1489526889755645,"/>
+            <xs:enumeration value="sn: 1489526889755645, model: xxx,"/>
+            <xs:enumeration value=""/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="flatType">
+    <xs:sequence>
+      <xs:element type="itemType" name="item" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sortedType">
+    <xs:sequence>
+      <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Corsair memory"/>
+            <xs:enumeration value="Intel Pentium"/>
+            <xs:enumeration value="Seagate"/>
+            <xs:enumeration value="nVidia"/>
+            <xs:enumeration value="monitor"/>
+            <xs:enumeration value="židle"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sorted2Type">
+    <xs:sequence>
+      <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Corsair memory"/>
+            <xs:enumeration value="Intel Pentium"/>
+            <xs:enumeration value="monitor"/>
+            <xs:enumeration value="nVidia"/>
+            <xs:enumeration value="Seagate"/>
+            <xs:enumeration value="židle"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="filtered_by_priceType">
+    <xs:sequence>
+      <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel Pentium - 4999"/>
+            <xs:enumeration value="nVidia - 2500"/>
+            <xs:enumeration value="monitor - 380"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="filtered_by_charType">
+    <xs:sequence>
+      <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Seagate"/>
+            <xs:enumeration value="Corsair memory"/>
+            <xs:enumeration value="nVidia"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="filtered_by_char_extendedType">
+    <xs:sequence>
+      <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel Pentium"/>
+            <xs:enumeration value="Corsair memory"/>
+            <xs:enumeration value="nVidia"/>
+            <xs:enumeration value="židle"/>
+            <xs:enumeration value="monitor"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dataType">
+    <xs:sequence>
+      <xs:element type="flatType" name="flat"/>
+      <xs:element type="sortedType" name="sorted"/>
+      <xs:element type="sorted2Type" name="sorted2"/>
+      <xs:element type="filtered_by_priceType" name="filtered_by_price"/>
+      <xs:element type="filtered_by_charType" name="filtered_by_char"/>
+      <xs:element type="filtered_by_char_extendedType" name="filtered_by_char_extended"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,51 @@
+<definitions targetNamespace="http://jpower8.com/workshop"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:jp8="http://jpower8.com/workshop/soap"
+             xmlns:tns="http://jpower8.com/workshop"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             name="Workshop"
+>
+    <types>
+        <xs:schema targetNamespace="http://jpower8.com/workshop">
+            <xs:import schemaLocation="./input.xsd" namespace="http://jpower8.com/workshop/soap"/>
+            <xs:import schemaLocation="./output.xsd" namespace="http://jpower8.com/workshop/soap"/>
+        </xs:schema>
+    </types>
+
+    <message name="WorkshopRequest">
+        <part name="WorkshopReq" element="jp8:WorkshopReq"/>
+    </message>
+
+    <message name="WorkshopResponse">
+        <part name="WorkshopRes" element="jp8:WorkshopRes"/>
+    </message>
+
+    <portType name="WorkshopPortType">
+        <operation name="getData">
+            <input message="tns:WorkshopRequest" name="WorkshopReq"/>
+            <output message="tns:WorkshopResponse" name="WorkshopRes"/>
+        </operation>
+    </portType>
+
+    <binding name="WorkshopBinding" type="tns:WorkshopPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http/"/>
+
+        <operation name="getData">
+            <soap:operation soapAction=""/>
+            <input name="WorkshopReq">
+                <soap:body use="literal"/>
+            </input>
+            <output name="WorkshopRes">
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+
+    <service name="WorkshopService">
+        <port binding="tns:WorkshopBinding" name="WorkshopPortSoap">
+            <soap:address location="http://localhost:8080/workshop/"/>
+        </port>
+
+    </service>
+</definitions>
