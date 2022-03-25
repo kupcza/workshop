@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<computer>
+<WorkshopReq>
     <components>
         <component>
             <type>processor</type>
@@ -65,4 +65,4 @@
             <currency>EUR</currency>
         </accesory>
     </accessories>
-</computer>
+</WorkshopReq>

@@ -3,7 +3,7 @@
 
     <xsl:template match="/">
 
-        <data>
+        <WorkshopRes>
             <flat>
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
@@ -77,7 +77,7 @@
                     </xsl:for-each>
                 </xsl:for-each>
             </filtered_by_char_extended>
-        </data>
+        </WorkshopRes>
 
     </xsl:template>
 </xsl:stylesheet>

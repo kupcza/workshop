@@ -1,4 +1,4 @@
-<data>
+<WorkshopRes>
     <flat>
         <item>
             <name>Intel Pentium (processor / Intel) - Some description stuff</name>
@@ -64,4 +64,4 @@
         <name>židle</name>
         <name>monitor</name>
     </filtered_by_char_extended>
-</data>
+</WorkshopRes>
