@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns="http://www.jpower8.com/newDeveloper/soap"
+    targetNamespace="http://www.jpower8.com/newDeveloper/soap">
+    <xs:element name="PointsOfInterestsReq">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element form="qualified" minOccurs="1" name="filter" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="type" type="xs:string"/>
+                            <xs:element name="pageLimit" type="xs:int"/>
+                            <xs:element name="brand">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:byte">
+                                        <xs:enumeration value="1"/>
+                                        <xs:enumeration value="2"/>
+                                        <xs:enumeration value="3"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

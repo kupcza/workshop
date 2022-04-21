@@ -1,0 +1,107 @@
+openapi: 3.0.0
+info:
+  title: Points of Interests
+  description: Get POIs
+  version: 1.0.0
+servers:
+- url: https://api.xxx.cz
+paths:
+  /filter-poi:
+    post:
+      summary: Filter POIs by params
+      description: |
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Filter"
+      responses:
+        default:
+          description: An array of POIs
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/POIs"
+
+components:
+  schemas:
+    Filter:
+      type: "object"
+      required:
+      - "type"
+      - "brand"
+      properties:
+        type: 
+          type: "string"
+          enum:
+          - "atm"
+          - "cp"
+          - "office"
+        limit:
+          type: "integer"
+        brand:
+          type: "integer"
+          enum:
+          - 1
+          - 2
+          - 3
+    POIs:
+      type: "object"
+      properties:
+        places:
+          type: "array"
+          items:
+            $ref: "#/components/schemas/POI"
+        filter:
+          $ref: "#/components/schemas/Filter"
+        brandName:
+          type: "string"
+          example: "ČSOB"
+    POI:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          example: 1234
+        title:
+          type: "string"
+          example: "Radlická NHQ"
+        type:
+          type: "string"
+          enum:
+          - "atm"
+          - "cp"
+          - "office"
+        street:
+          type: "string"
+          example: "Radlická"
+        streetNo:
+          type: "string"
+          example: ""
+        city:
+          type: "string"
+          example: "Prague"
+        country:
+          type: "string"
+          example: "Czech Republic"
+        url:
+          type: "string"
+          example: "https://www.csob.cz/pobocky/radlicka"
+        openingHours:
+          type: array
+          items:
+            $ref: "#/components/schemas/OpeningHours"
+    OpeningHours:
+      type: "object"
+      properties:
+        day:
+          type: "string"
+          example: "Pondělí"
+        opening:
+          type: "string"
+          example: "08:30"
+        closing:
+          type: "string"
+          example: "18:00"
+        
+        

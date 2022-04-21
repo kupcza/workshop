@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns="http://www.jpower8.com/newDeveloper/soap"
+    targetNamespace="http://www.jpower8.com/newDeveloper/soap">
+    <xs:element name="PointsOfInterestsRes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="places">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="item">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:int"/>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="address">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="street" type="xs:string"/>
+                                                  <xs:element name="houseNo" type="xs:string"/>
+                                                  <xs:element name="town" type="xs:string"/>
+                                                  <xs:element name="postal" type="xs:string"/>
+                                                  <xs:element name="country" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="type">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                  <xs:enumeration value="atm"/>
+                                                  <xs:enumeration value="cp"/>
+                                                  <xs:enumeration value="office"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="url" type="xs:string"/>
+                                        <xs:element name="hours">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element maxOccurs="7" name="hour">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element name="day">
+                                                  <xs:simpleType>
+                                                  <xs:restriction base="xs:byte">
+                                                  <xs:pattern value="[1-7]{1}"/>
+                                                  </xs:restriction>
+                                                  </xs:simpleType>
+                                                  </xs:element>
+                                                  <xs:element name="from">
+                                                  <xs:simpleType>
+                                                  <xs:restriction base="xs:string">
+                                                  <xs:maxLength value="5"/>
+                                                  </xs:restriction>
+                                                  </xs:simpleType>
+                                                  </xs:element>
+                                                  <xs:element name="to">
+                                                  <xs:simpleType>
+                                                  <xs:restriction base="xs:string">
+                                                  <xs:maxLength value="5"/>
+                                                  </xs:restriction>
+                                                  </xs:simpleType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="filter" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="type" type="xs:string"/>
+                            <xs:element name="pageLimit" type="xs:int"/>
+                            <xs:element name="brand">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:byte">
+                                        <xs:enumeration value="1"/>
+                                        <xs:enumeration value="2"/>
+                                        <xs:enumeration value="3"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

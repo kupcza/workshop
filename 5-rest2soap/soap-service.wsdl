@@ -1,0 +1,52 @@
+<definitions targetNamespace="http://www.jpower8.com/newDeveloper"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:jp8="http://www.jpower8.com/newDeveloper/soap"
+    xmlns:tns="http://www.jpower8.com/newDeveloper"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    name="PointsOfInterests">
+    <types>
+        <xs:schema elementFormDefault="qualified" targetNamespace="http://www.jpower8.com/newDeveloper">
+            
+            <xs:import schemaLocation="./request.xsd" namespace="http://www.jpower8.com/newDeveloper/soap"/>
+            <xs:import schemaLocation="./response.xsd" namespace="http://www.jpower8.com/newDeveloper/soap"/>
+        </xs:schema>
+    </types>
+    
+    <message name="PointsOfInterestsRequest">
+        <part name="PointsOfInterestsRequest" element="jp8:PointsOfInterestsReq"/>
+    </message>
+    
+    <message name="PointsOfInterestsResponse">
+        <part name="PointsOfIntereststResponse" element="jp8:PointsOfInterestsRes"/>
+    </message>
+    
+    <portType name="BapiTestServicePort">
+
+        <operation name="getPointsOfInterests">
+            <input message="tns:PointsOfInterestsRequest" name="PointsOfInterestsReq"/>
+            <output message="tns:PointsOfInterestsResponse" name="PointsOfInterestsRes"/>
+        </operation>
+    </portType>
+    
+    <binding name="BapiTestService" type="tns:BapiTestServicePort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <operation name="getPointsOfInterests">
+            <soap:operation soapAction=""/>
+            <input name="PointsOfInterestsReq">
+                <soap:body use="literal"/>
+            </input>
+            <output name="PointsOfInterestsRes">
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="BapiTestServicePortService">
+        <port binding="tns:BapiTestService" name="BapiTestServicePortSoap">
+            <soap:address
+                location="http://caapigw92v2.ca.localdomain:8080/demo/new-developer/soap"
+            />
+        </port>
+    </service>
+</definitions>
