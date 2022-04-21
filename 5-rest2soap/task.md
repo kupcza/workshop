@@ -1,6 +1,6 @@
 # Úkol
 
-1. Z OpenAPI rozhraní si vygeneruj validní request (JSON, bez hlaviček)
+1. Z OpenAPI rozhraní (openapi.yaml zde v repo) si vygeneruj validní request (JSON, bez hlaviček)
 2. Tento JSON si převeď na XML
 3. Vytvoř si nové XML, které bude obsahovat element, kam lze vložit další lementy pro naplnění hodnot z HTTP hlaviček a potom ve druhé části zde bude prostor pro XML z předchozího bodu
 4. Nad nově vzniklým XML vytvoř XSL transformaci tak, aby odpovídala requestu dle request.xsd a také zkontroluj, zda existuje element brand (z původního requestu) a zda nabývá hodnot (1, 2 nebo 3), pokud ne, vyplň hodnotou "0"
