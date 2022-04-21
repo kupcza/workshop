@@ -10,6 +10,17 @@ paths:
     post:
       summary: Filter POIs by params
       description: |
+      parameters:
+        - in: header
+          name: X-Execution-Timestamp
+          schema:
+            type: string
+            format: date-time
+        - in: header
+          name: X-Request-Id
+          schema:
+            type: string
+            pattern: "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
       requestBody:
         content:
           application/json:
