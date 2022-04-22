@@ -22,8 +22,6 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element minOccurs="1" maxOccurs="1" name="requestID" type="xs:string" />
-                <xs:element minOccurs="1" maxOccurs="1" name="timestamp" type="xs:string" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>
