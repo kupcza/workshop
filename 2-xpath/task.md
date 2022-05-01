@@ -12,3 +12,7 @@
    5. Zjisti hodnotu všech elementů "name", které se nacházejí v elementu "Pet" na pozici <= 5
    6. Zjisti hodnotu všech elementů "id", kde je hodnota elementu "status" == available 
    7. Zjisti hodnotu všech elementů "status", kde je hodnota elementu "status" <> available a zároveň hodnota "name" = jimmy
+   8. Vypiš všechny sudé elementy "Pet"
+   9. Vypiš všechny liché elementy "Pet"
+   10. Vypiš počet elementů "Pet", kde je hodnota elementu "name" = doggie
+   11. Pro všechny výskyty "Pet" vypiš hodnotu v tomto tvaru "#id - name"
