@@ -1,0 +1,34 @@
+<soap:PointsOfInterestsRes xmlns:soap="http://www.jpower8.com/newDeveloper/soap">
+  <soap:requestID>string</soap:requestID>
+  <soap:places>
+    <!--Zero or more repetitions:-->
+    <soap:item>
+      <soap:timestamp>string</soap:timestamp>
+      <soap:id>3</soap:id>
+      <soap:name>string</soap:name>
+      <soap:address>
+        <soap:street>string</soap:street>
+        <soap:houseNo>string</soap:houseNo>
+        <soap:town>string</soap:town>
+        <soap:postal>string</soap:postal>
+        <soap:country>string</soap:country>
+      </soap:address>
+      <soap:type>atm</soap:type>
+      <soap:url>string</soap:url>
+      <soap:hours>
+        <!--1 to 7 repetitions:-->
+        <soap:hour>
+          <soap:day>2</soap:day>
+          <soap:from>strin</soap:from>
+          <soap:to>strin</soap:to>
+        </soap:hour>
+      </soap:hours>
+    </soap:item>
+  </soap:places>
+  <soap:filter>
+    <soap:type>string</soap:type>
+    <soap:pageLimit>3</soap:pageLimit>
+    <soap:brand>2</soap:brand>
+    <soap:brandName>string</soap:brandName>
+  </soap:filter>
+</soap:PointsOfInterestsRes>

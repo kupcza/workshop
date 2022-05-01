@@ -1,0 +1,128 @@
+openapi: 3.0.0
+info:
+  description: The training API
+  version: "1.0.0"
+  title: First API
+  contact:
+    email: jlkjs@jksdf.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/peter.trahnyuk/testApi/1.0.0
+
+tags:
+  - name: developer
+    description: developers operations only
+  - name: client
+    description: clients operation only
+
+paths:
+  /data/item:
+    get:
+      tags:
+        - client
+      summary: search data
+      operationId: searchData
+      parameters:
+        - in: query
+          name: searchString
+          required: false
+          schema:
+            type: string
+
+        - in: query
+          name: skip
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            format: int32
+            minimum: 0
+            maximum: 50
+
+      responses:
+        '200':
+          description: user data matched
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/userData'
+
+        '400':
+          description: user data not fouded
+
+    post:
+      tags:
+        - developer
+      summary: finded data
+      operationId: findedData
+      responses:
+        '201':
+          description: user data added
+        '400':
+          description: 'invalid data input, object invalid'
+      requestBody:
+        content:
+          application/jaso:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/userData'
+
+components:
+  schemas:
+    userData:
+      type: object
+      required:
+        - id
+        - name
+        - clientType
+        - dataOfRagistration
+        - userAccount
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: aa99-bb88-cc77
+        name:
+          type: string
+          example: Jony Jons
+        clientType:
+          type: string
+          example: gold
+        dateOfRagistration:
+          type: string
+          format: date-time
+          example: '2021-01-01T10:10:10.001Z'
+        userAccount:
+          type: array
+          items:
+            $ref: '#/components/schemas/DataAccount'
+
+    DataAccount:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          example: Jony Jons
+        homePage:
+          type: string
+          format: url
+          example: 'https://www.facebook.com'
+        phone:
+          type: string
+          example: 777-777-777
+
+

@@ -25,7 +25,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: "#/components/schemas/Filter"
+              $ref: "#/components/schemas/RequestData"
       responses:
         default:
           description: An array of POIs
@@ -36,6 +36,24 @@ paths:
 
 components:
   schemas:
+    RequestData:
+      type: "object"
+      required:
+        - data
+        - filter
+      properties:
+        data:
+          $ref: "#/components/schemas/Data"
+        filter:
+          $ref: "#/components/schemas/Filter"
+    Data:
+      type: array
+      items:
+        $ref: "#/components/schemas/DataItem"
+    DataItem:
+      type: "object"
+      properties:
+
     Filter:
       type: "object"
       required:
