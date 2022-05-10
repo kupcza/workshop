@@ -9,12 +9,18 @@
    4. Vytvořte nové pole objektů, které bude obsahovat jenom objekty s lichými indexy
    5. Vytvořte nové pole objektů, které bude obsahovat jenom objekty, které obsahují "status" == "available"
    6. Vytvořte nový objekt, který bude mít následující strukturu:
-      - items (pole)
-         - id (index objektu)
-         - orig_id (hodnota id)
-         - category_name
-         - images (all photoUrl in one line comma separated)
-      - total_count (celkový počet položek)
-      - pending_count (počet objektů které obsahují "status" == "pending")
-      - available_count (počet objektů, které obsahují "status" == "available")
-      - not_available_count (počet objektů, které splňují status <> "available" a zároveň v "tags" se nachází alespoň jeden tag, jehož id < 10)
+      - (array) items (pole)
+         - (int) id (index objektu)
+         - (int) orig_id (hodnota id)
+         - (int) category_name
+         - (string) images (all photoUrl in one line comma separated)
+      - (int) total_count (celkový počet položek)
+      - (int) pending_count (počet objektů které obsahují "status" == "pending")
+      - (int) available_count (počet objektů, které obsahují "status" == "available")
+      - (int) not_available_count (počet objektů, které splňují status <> "available" a zároveň v "tags" se nachází alespoň jeden tag, jehož id < 10)
+   7. Kód z předchozího bodu rozšiřte následovně:
+      - každý objekt v poli "items" rozšiřte o následující atributy:
+        - (string) tag_names: jedná se o všechny hodnoty tags[].name sloučené do jednoho stringu (comma separated)
+        - (object) dynamic: v následující struktuře key: value
+          - {item.category.name} : {item.category.id}
+          - {item.category.id} : {item.category}
