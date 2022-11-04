@@ -1990,10 +1990,6 @@
         </tags>
     </Pet>
     <Pet>
-        <category>
-            <id>0</id>
-            <name>string</name>
-        </category>
         <id>9223372016900023285</id>
         <name>fish</name>
         <photoUrls>
@@ -2615,10 +2611,6 @@
         </tags>
     </Pet>
     <Pet>
-        <category>
-            <id>0</id>
-            <name>string</name>
-        </category>
         <id>9223372016900023380</id>
         <name>doggie</name>
         <photoUrls>

@@ -3,7 +3,13 @@
 
     <xsl:template match="/">
 
-
+        <!-- remove me later -->
+        <root>
+            <petName>
+                <xsl:value-of select="/pets/Pet[1]/name"/>
+            </petName>
+        </root>
+        <!-- remove me later -->
 
     </xsl:template>
 </xsl:stylesheet>
