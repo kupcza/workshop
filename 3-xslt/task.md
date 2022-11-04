@@ -43,8 +43,6 @@ souboru output.xml bude následující obsah:
      - animal {0,u} (všechny Pet, kde category/name) je různý od hodnoty "string"
 
 
-název kategorie != "string"
-
 ----
 ### Vysvětlivky
 
