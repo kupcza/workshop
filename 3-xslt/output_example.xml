@@ -1,0 +1,1043 @@
+<zoo>
+    <animals>
+        <animal>
+            <name>fish</name>
+        </animal>
+        <animal>
+            <name>Mouse</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>Puff</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+        <animal>
+            <name>doggie</name>
+        </animal>
+    </animals>
+    <doesntHaveCategory>
+        <animal>
+            <idName>#9223372016900023094 - doggie</idName>
+        </animal>
+        <animal>
+            <idName>#9223372016900023518 - doggie</idName>
+        </animal>
+        <animal>
+            <idName>#9223372016900023701 - doggie</idName>
+        </animal>
+        <animal>
+            <idName>#9223372016900023795 - doggie</idName>
+        </animal>
+        <animal>
+            <idName>#9223372016900023884 - doggie</idName>
+        </animal>
+        <animal>
+            <idName>#9223372016900024003 - doggie</idName>
+        </animal>
+    </doesntHaveCategory>
+    <notAvailable>
+        <animal>
+            <id>9223372016900024159</id>
+            <name>doggie</name>
+            <photoUrls>
+                <url>mollit quis velit</url>
+                <url>Ut</url>
+            </photoUrls>
+        </animal>
+        <animal>
+            <id>96967794</id>
+            <name>doggie</name>
+            <photoUrls>
+                <url>eiusmod do</url>
+                <url>no</url>
+            </photoUrls>
+        </animal>
+        <animal>
+            <id>9223372016900024170</id>
+            <name>doggie</name>
+            <photoUrls>
+                <url>pariatur consequat</url>
+                <url>dolor eu nostrud eiusmod exercitation</url>
+            </photoUrls>
+        </animal>
+        <animal>
+            <id>5</id>
+            <name>jimmy</name>
+        </animal>
+        <animal>
+            <id>9223372016900023299</id>
+            <name>doggie</name>
+            <photoUrls>
+                <url>string</url>
+            </photoUrls>
+        </animal>
+    </notAvailable>
+    <customCategory>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>Jerry</name>
+                        
+            </category>
+            <id>9223372016900023062</id>
+            <name>Mouse</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>Mouse</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>83440528</id>
+                            
+                <name>minim</name>
+                        
+            </category>
+            <id>9223372016900023066</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>Lorem qui do</photoUrl>
+                            
+                <photoUrl>veniam in aute dolore</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-45823716</id>
+                                    
+                    <name>sint</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>99213104</id>
+                                    
+                    <name>anim ullamco dolore</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>categoryName</name>
+                        
+            </category>
+            <id>10</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>www.photoUrls.com</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>9</id>
+                                    
+                    <name>tagName</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>-22178237</id>
+                            
+                <name>aliquip nisi enim sint Lorem</name>
+                        
+            </category>
+            <id>9223372016900023093</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>non cillum voluptate sit</photoUrl>
+                            
+                <photoUrl>non cillum esse</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-20930507</id>
+                                    
+                    <name>ci</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-45484531</id>
+                                    
+                    <name>dolor in reprehenderit</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>66826337</id>
+                            
+                <name>Ut aliqua officia</name>
+                        
+            </category>
+            <id>41421914</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>aliquip</photoUrl>
+                            
+                <photoUrl>mollit consectetur</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-75050090</id>
+                                    
+                    <name>aute nostrud laboris ut</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>58732348</id>
+                                    
+                    <name>culpa dolor nisi adipisic</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>2</id>
+                            
+                <name>cat2</name>
+                        
+            </category>
+            <id>7779</id>
+            <name>Сафронов_Pets</name>
+            <photoUrls>
+                            
+                <photoUrl>https://pbs.twimg.com/profile_images/948294484596375552/RyGNqDEM_400x400.jpg</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>600</id>
+                                    
+                    <name>catty</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>-18447359</id>
+                            
+                <name>quis reprehenderit</name>
+                        
+            </category>
+            <id>9223372016900023119</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>eu tempor in consequat consectetur</photoUrl>
+                            
+                <photoUrl>consequat minim ad laborum</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-50893691</id>
+                                    
+                    <name>consectetur aute</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-81290319</id>
+                                    
+                    <name>id magna</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>91736249</id>
+                            
+                <name>irure</name>
+                        
+            </category>
+            <id>9223372016900023148</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>aute consectetur Ut</photoUrl>
+                            
+                <photoUrl>incididunt irure dolore consequat in</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-25423593</id>
+                                    
+                    <name>sunt fu</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>78772116</id>
+                                    
+                    <name>Duis in</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>1</id>
+                            
+                <name>Humsters</name>
+                        
+            </category>
+            <id>105</id>
+            <name>Petrushka</name>
+            <photoUrls>
+                            
+                <photoUrl>URL</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>1</id>
+                                    
+                    <name>black</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>4001</id>
+                            
+                <name>Domestic</name>
+                        
+            </category>
+            <id>49002</id>
+            <name>Dogs</name>
+            <photoUrls>
+                            
+                <photoUrl>NA</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>9001</id>
+                                    
+                    <name>Low Cost</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>1245</id>
+                            
+                <name>xyz</name>
+                        
+            </category>
+            <id>1245</id>
+            <name>xyz</name>
+            <photoUrls>
+                            
+                <photoUrl>test</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023229</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>string</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>77116641</id>
+                            
+                <name>nulla</name>
+                        
+            </category>
+            <id>9223372016900024159</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>mollit quis velit</photoUrl>
+                            
+                <photoUrl>Ut</photoUrl>
+                        
+            </photoUrls>
+            <status>pending</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>61143380</id>
+                                    
+                    <name>esse aute in</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-98026285</id>
+                                    
+                    <name>sunt</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>-70401199</id>
+                            
+                <name>ex</name>
+                        
+            </category>
+            <id>96967794</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>eiusmod do</photoUrl>
+                            
+                <photoUrl>no</photoUrl>
+                        
+            </photoUrls>
+            <status>pending</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>93202135</id>
+                                    
+                    <name>elit officia culpa in</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-33417756</id>
+                                    
+                    <name>ea do quis</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>362615</id>
+                            
+                <name>in Excepteur aliquip aute occaecat</name>
+                        
+            </category>
+            <id>9223372016900024170</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>pariatur consequat</photoUrl>
+                            
+                <photoUrl>dolor eu nostrud eiusmod exercitation</photoUrl>
+                        
+            </photoUrls>
+            <status>pending</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>2319487</id>
+                                    
+                    <name>laborum quis minim</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>22718827</id>
+                                    
+                    <name>proident consequat dolor quis</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>5</id>
+                            
+                <name>jimmy</name>
+                        
+            </category>
+            <id>5</id>
+            <name>jimmy</name>
+            <photoUrls/>
+            <status>pending</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>5</id>
+                                    
+                    <name>jimmy</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>-61261571</id>
+                            
+                <name>fish</name>
+                        
+            </category>
+            <id>9223372016900023426</id>
+            <name>Nemo</name>
+            <photoUrls>
+                            
+                <photoUrl>ex</photoUrl>
+                            
+                <photoUrl>https://yandex.ru/images/search?from=tabbar&amp;text=fish&amp;pos=6&amp;img_url=https%3A%2F%2Fjooinn.com%2Fimages%2Fcolorful-fish-6.jpg&amp;rpt=simage</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-97045225</id>
+                                    
+                    <name>proident velit Lorem aliquip</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-95395755</id>
+                                    
+                    <name>et</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>-61261571</id>
+                            
+                <name>fishs</name>
+                        
+            </category>
+            <id>9223372000001127280</id>
+            <name>Nemo fish</name>
+            <photoUrls>
+                            
+                <photoUrl>ex</photoUrl>
+                            
+                <photoUrl>https://yandex.ru/images/search?from=tabbar&amp;text=fish&amp;pos=6&amp;img_url=https%3A%2F%2Fjooinn.com%2Fimages%2Fcolorful-fish-6.jpg&amp;rpt=simage</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>-97045225</id>
+                                    
+                    <name>proident velit Lorem aliquip</name>
+                                
+                </tag>
+                            
+                <tag>
+                                    
+                    <id>-95395755</id>
+                                    
+                    <name>et</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>27</id>
+                            
+                <name>Hamsters</name>
+                        
+            </category>
+            <id>27</id>
+            <name>Carrot</name>
+            <photoUrls>
+                            
+                <photoUrl>URl</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>27</id>
+                                    
+                    <name>orange</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>999</id>
+                            
+                <name>cats</name>
+                        
+            </category>
+            <id>9223372016900023430</id>
+            <name>Jerry</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>string</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>1</id>
+                            
+                <name>Cat</name>
+                        
+            </category>
+            <id>5489</id>
+            <name>Missi</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>35</id>
+                                    
+                    <name>British cat</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>999</id>
+                            
+                <name>cats</name>
+                        
+            </category>
+            <id>9235611022235</id>
+            <name>Pidar Mohnatyj</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>string</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023761</id>
+            <name>tom</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900020226</id>
+            <name>tom cruise</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023790</id>
+            <name>tom</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023793</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>string</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>Jerry</name>
+                        
+            </category>
+            <id>9223372016900023794</id>
+            <name>Mouse</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>Mouse</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023842</id>
+            <name>tom cruise</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>blahBlah</name>
+                        
+            </category>
+            <id>20</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>www.doggieUrl.com</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>9</id>
+                                    
+                    <name>tagName</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>27</id>
+                            
+                <name>Hamsters</name>
+                        
+            </category>
+            <id>100000000009</id>
+            <name>Carrot</name>
+            <photoUrls>
+                            
+                <photoUrl>URl</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>27</id>
+                                    
+                    <name>orange</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023922</id>
+            <name>tom</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023937</id>
+            <name>doggie</name>
+            <photoUrls>
+                            
+                <photoUrl>string</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>0</id>
+                                    
+                    <name>string</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>0</id>
+                            
+                <name>doggie</name>
+                        
+            </category>
+            <id>9223372016900023947</id>
+            <name>tom</name>
+            <photoUrls/>
+            <status>available</status>
+            <tags/>
+        </animal>
+        <animal>
+            <category>
+                            
+                <id>30</id>
+                            
+                <name>Eq-dog</name>
+                        
+            </category>
+            <id>112233</id>
+            <name>Postman</name>
+            <photoUrls>
+                            
+                <photoUrl>URLLink</photoUrl>
+                        
+            </photoUrls>
+            <status>available</status>
+            <tags>
+                            
+                <tag>
+                                    
+                    <id>10</id>
+                                    
+                    <name>Doberman</name>
+                                
+                </tag>
+                        
+            </tags>
+        </animal>
+    </customCategory>
+</zoo>

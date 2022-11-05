@@ -22,25 +22,24 @@ souboru output.xml bude následující obsah:
 ```
 5. Vytvořte novou transformaci tak, aby data měla následující strukturu:
    - zoo {1,1}
-     - animals (pets) {1,1}
+     - animals (pets) {1,10} (vypište prvních 10 pets/Pet - operátory pro porovnání https://docstore.mik.ua/orelly/xml/xslt/appb_04.htm)
        - animal (pets -> Pet) {1,u}
          - name (pets -> Pet -> name) {1,1}
-
-6. Do root elementu "zoo" přidejte nový element "available" v následující struktuře:
-   - available {1,1}
-     - animal {0,u} (všechny Pet, které mají status "available")
+6. Do root element "zoo" přidejte nový element "doesntHaveCategory" a mějte následující strukturu:
+    - doesntHaveCategory {1,1}
+        - animal {0,u} (všechna zvířata, která nemají category - použití fce not())
+            - idName {1,1} (spojení hodnot id a name ve formátu "#id - name" - bez uvozovek)
+7. Do root elementu "zoo" přidejte nový element "notAvailable" v následující struktuře:
+   - notAvailable {1,1}
+     - animal {0,u} (všechny Pet, které NEmají status "available", XSLT for-each - filtering output)
        - id {1,1}
        - name {1,1}
-       - photoUrls {0,1} (pokud existuje v originálních datech alespoň jedna photoUrls/url)
+       - photoUrls {0,1} (pokud existuje v originálních datech alespoň jedna photoUrls/photoUrl)
          - url {0,u}
-7. Do root element "zoo" přidejte nový element "hasCategory" a mějte následující strukturu:
-   - hasCategory {1,1}
-     - animal {0,u} (všechna zvířata, která mají category)
-       - categoryName {1,1} (hodnota Pet/category/name)
-       - name {1,1} (hodnota Pet/name)
 8. Do root elementu "zoo" přidejte nový element "customCategory" a mějte následující strukturu:
    - customCategory {1,1}
      - animal {0,u} (všechny Pet, kde category/name) je různý od hodnoty "string"
+       - kopie celého Pet (použití copy-of)
 
 
 ----
