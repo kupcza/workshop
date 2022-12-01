@@ -4,8 +4,10 @@
 2. Tento JSON si převeď na XML tak, aby odpovídalo XML dle request.XSD
 3. Vytvoř si nové XML, které bude mít následující strukturu:
    - root
-     - headers (zde jsou HTTP hlavičky z REQ viz openapi.yaml)
-     - body (zde bude vzniklé XML z bodu 2)
+     - headers {1,1} (zde jsou HTTP hlavičky z REQ viz openapi.yaml)
+       - {header_name} {0,u} (kde {header_name} je název hlavičky a hodnota je hodnota hlavičky)
+     - body {1,1} (zde bude vzniklé XML z bodu 2)
+       - {request_xml_root_element} {1,1}
      - data (všechna potřebná data  pro vytvoření reponse) naplnit alespoň 10x:
        - name
        - address
