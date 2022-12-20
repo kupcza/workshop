@@ -26,6 +26,9 @@ paths:
           application/json:
             schema:
               $ref: "#/components/schemas/RequestData"
+          text/xml:
+            schema:
+              $ref: "#/components/schemas/RequestData"
       responses:
         default:
           description: An array of POIs
