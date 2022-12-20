@@ -4,7 +4,7 @@ info:
   description: Get POIs
   version: 1.0.0
 servers:
-- url: https://api.xxx.cz
+  - url: https://api.xxx.cz
 paths:
   /filter-poi:
     post:
@@ -39,41 +39,30 @@ components:
     RequestData:
       type: "object"
       required:
-        - data
         - filter
       properties:
-        data:
-          $ref: "#/components/schemas/Data"
         filter:
           $ref: "#/components/schemas/Filter"
-    Data:
-      type: array
-      items:
-        $ref: "#/components/schemas/DataItem"
-    DataItem:
-      type: "object"
-      properties:
-
     Filter:
       type: "object"
       required:
-      - "type"
-      - "brand"
+        - "type"
+        - "brand"
       properties:
-        type: 
+        type:
           type: "string"
           enum:
-          - "atm"
-          - "cp"
-          - "office"
+            - "atm"
+            - "cp"
+            - "office"
         limit:
           type: "integer"
         brand:
           type: "integer"
           enum:
-          - 1
-          - 2
-          - 3
+            - 1
+            - 2
+            - 3
     POIs:
       type: "object"
       properties:
@@ -98,9 +87,9 @@ components:
         type:
           type: "string"
           enum:
-          - "atm"
-          - "cp"
-          - "office"
+            - "atm"
+            - "cp"
+            - "office"
         street:
           type: "string"
           example: "Radlická"
@@ -132,5 +121,3 @@ components:
         closing:
           type: "string"
           example: "18:00"
-        
-        
