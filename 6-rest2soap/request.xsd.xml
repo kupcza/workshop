@@ -1,9 +1,0 @@
-<body xmlns:jp8="http://www.jpower8.com/newDeveloper/soap">
-    <jp8:PointsOfInterestsReq>
-        <jp8:filter>
-            <jp8:type>string</jp8:type>
-            <jp8:pageLimit>3</jp8:pageLimit>
-            <jp8:brand>1</jp8:brand>
-        </jp8:filter>
-    </jp8:PointsOfInterestsReq>
-</body>
