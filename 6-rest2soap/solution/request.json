@@ -1,0 +1,7 @@
+{
+  "filter": {
+    "type": "atm",
+    "brand": 2,
+    "limit": -24254086
+  }
+}

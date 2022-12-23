@@ -1,0 +1,58 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.jpower8.com/newDeveloper/soap">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <soap:PointsOfInterestsRes>
+            <soap:requestID>b9d386ff-b09e-5b91-e727-0d8e3fb61b8c</soap:requestID>
+            <soap:places>
+                <soap:item>
+                    <soap:timestamp>1998-02-18T20:57:40.0Z</soap:timestamp>
+                    <soap:id>1</soap:id>
+                    <soap:name>Some Name</soap:name>
+                    <soap:address>
+                        <soap:street>Street</soap:street>
+                        <soap:houseNo/>
+                        <soap:town>Prague</soap:town>
+                        <soap:postal>15000</soap:postal>
+                        <soap:country>Czech Republic</soap:country>
+                    </soap:address>
+                    <soap:type>atm</soap:type>
+                    <soap:url>https://www.jpower8.cz</soap:url>
+                    <soap:hours>
+                        <soap:hour>
+                            <soap:day>Day</soap:day>
+                            <soap:from>08:00</soap:from>
+                            <soap:to>16:00</soap:to>
+                        </soap:hour>
+                    </soap:hours>
+                </soap:item>
+                <soap:item>
+                    <soap:timestamp>1998-02-18T20:57:40.0Z</soap:timestamp>
+                    <soap:id>2</soap:id>
+                    <soap:name>Some Name</soap:name>
+                    <soap:address>
+                        <soap:street>Street</soap:street>
+                        <soap:houseNo/>
+                        <soap:town>Prague</soap:town>
+                        <soap:postal>15000</soap:postal>
+                        <soap:country>Czech Republic</soap:country>
+                    </soap:address>
+                    <soap:type>atm</soap:type>
+                    <soap:url>https://www.jpower8.cz</soap:url>
+                    <soap:hours>
+                        <soap:hour>
+                            <soap:day>Day</soap:day>
+                            <soap:from>08:00</soap:from>
+                            <soap:to>16:00</soap:to>
+                        </soap:hour>
+                    </soap:hours>
+                </soap:item>
+            </soap:places>
+            <soap:filter>
+                <soap:type>atm</soap:type>
+                <soap:pageLimit>0</soap:pageLimit>
+                <soap:brand>1</soap:brand>
+                <soap:brandName>ČSOB</soap:brandName>
+            </soap:filter>
+        </soap:PointsOfInterestsRes>
+    </soapenv:Body>
+</soapenv:Envelope>

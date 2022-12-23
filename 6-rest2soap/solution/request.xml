@@ -1,0 +1,37 @@
+<root>
+    <headers>
+        <X-Execution-Timestamp>1998-02-18T20:57:40.0Z</X-Execution-Timestamp>
+        <X-Request-Id>b9d386ff-b09e-5b91-e727-0d8e3fb61b8c</X-Request-Id>
+    </headers>
+    <body>
+        <RequestData>
+            <filter>
+                <type>atm</type>
+                <limit>0</limit>
+                <brand>1</brand>
+            </filter>
+        </RequestData>
+    </body>
+    <data>
+        <item>
+            <name>Some Name</name>
+            <address>
+                <street>Street</street>
+                <house_no>10</house_no>
+                <town>Prague</town>
+                <postal>15000</postal>
+                <country>Czech Republic</country>
+            </address>
+        </item>
+        <item>
+            <name>Some Name</name>
+            <address>
+                <street>Street</street>
+                <house_no>10</house_no>
+                <town>Prague</town>
+                <postal>15000</postal>
+                <country>Czech Republic</country>
+            </address>
+        </item>
+    </data>
+</root>
