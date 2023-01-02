@@ -12,3 +12,9 @@
 3. set XSLT file
 4. set XML input file
 5. set output to file
+
+# How to add XSLT 2.0 support using Saxon
+1. Open File -> Project structure
+2. Libraries -> "+" -> Java
+3. Choose saxon9he.jar in project root
+4. Choose current module
