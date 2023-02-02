@@ -6,8 +6,3 @@ function greetings(name) {
 
 // Call function right when cli command is called
 greetings("General Kenobi");
-
-function square() {}
-
-function rectangle() {}
-
