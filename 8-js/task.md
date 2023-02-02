@@ -8,6 +8,6 @@
    - Zadejte: ```npm -v``` konzole by měla vypsat verzi npm. Např ```9.4.0```
 3. V CLI se pronavigujte do tohoto adresáže a zadejte ```node index.js```, výstupem by mělo být vypsání  ```General Kenobi: Hello there!```
 4. Zakomentujte volání fce ```greetings()``` a pokračujte na dalším řádku (původní kód ponechte)
-5. Vytvořte fci ```square```, která bude mít na vstupu parametr ```a```, vypočítá obsah čtverce a toto číslo vypište pomocí ```console.log()```
-6. Vytvořte fci ```rectangle```, která bude mít dva vstupní parametry ```a``` a ```b```, a která vypíše obsah obdélníku stejn ějako v předchozím bodě
+5. Vytvořte fci ```square```, která bude mít na vstupu parametr ```a``` (číslo musí být větší než 0), vypočítá obsah čtverce a toto číslo vypište pomocí ```console.log()```
+6. Vytvořte fci ```rectangle```, která bude mít dva vstupní parametry ```a``` a ```b``` (čísla musí být větší než 0), a která vypíše obsah obdélníku stejn ějako v předchozím bodě
 7. Vytvořte fci ``highest``, která bude mít na vstupu pole čísel. Úkolem fce bude v tomto poli najít nejvyšší číslo a to vrátit / vypsat do konzole.
