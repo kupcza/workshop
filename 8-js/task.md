@@ -25,4 +25,8 @@
 6. Nastudujte si, co jsou to anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
 7. Nastudujte si, co je to ternární operátor a jak se používá
 8. Práce se stringy
-   1. Jak funguje concat
+   1. Jak funguje concat (spojování stringů)
+   2. Zjistěte, jak zajistit transformaci textu:
+      - všechna písmena velká
+      - všechna písmena malá
+      - pouze první písmeno velké
