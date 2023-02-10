@@ -103,6 +103,7 @@
    ````
    - String může být libovolně dlouhý (ale řekněme, že max délka může být 20 znaků
    - String bude vždy vystředěn (tzn bude zarovnán na střed) (hint: počet mezer nalevo i napravo je shodný)
+6. Navrhněte rozšíření fce z předchozího bodu tak, že uživatel si bude moct zadat nejen komentář, ale i dekorační znak. Tzn hvězdička může být nahrazena čímkoliv.
 
 ---
 
