@@ -15,6 +15,7 @@
    - celá čísla (int)
    - desetinná (float, number)
    - string
+   - boolean
    - array
    - object
    - null / undefined
@@ -36,6 +37,8 @@
    - všechna písmena velká
    - všechna písmena malá
    - pouze první písmeno velké
+3. Do konzole vypište pouze první písmeno daného stringu
+4. Do konzole vypište délku daného stringu (tj počet znaků)
 
 ---
 
@@ -81,6 +84,28 @@
 
 ---
 
-## g) Objekty
+## g) Funkce se stringy
+
+1. Napište funkci, která bude mít na vstupu 2 argumenty ``name`` a ``age``.
+   - Tato funkce na výstupu uživatele pozdraví a spočítá rok, kdy se narodil (nebereme v potaz datum, ale pouze rok)
+   -   Vítej ``name``. Narodil ses v roce ``year``.
+2. Napište funkci, jejíž vstupním parametrem bude string a výstupním bude string pozpátku (tj z ``Hello!`` bude ``!olleH``)
+3. Napište funkci, která bude mít na vstupu 2 argumenty. Tato funkce ověří, zda jeden string je anagram druhého. Pokud ano, vrátí se ``true``, pokud ne, pak se vrátí ``false``
+4. Napište funkci, která bude mít na vstupu 1 argument a zjistí, zda se jedná o palindrom. Návratová hodnota bude typu ``Boolean``
+5. Napiště funkci, která nám do konzole vypíše hezký komentář ve tvaru (```I am your father``` je string z předané proměnné pomocí argumentu)
+
+   ````
+   ******************************************************
+   **                                                  **
+   **                 I am your father                 **
+   **                                                  **
+   ******************************************************
+   ````
+   - String může být libovolně dlouhý (ale řekněme, že max délka může být 20 znaků
+   - String bude vždy vystředěn (tzn bude zarovnán na střed) (hint: počet mezer nalevo i napravo je shodný)
+
+---
+
+## h) Objekty
 
 ---
