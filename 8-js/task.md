@@ -8,7 +8,63 @@
    - Zadejte: ```npm -v``` konzole by měla vypsat verzi npm. Např ```9.4.0```
 3. V CLI se pronavigujte do tohoto adresáže a zadejte ```node index.js```, výstupem by mělo být vypsání  ```General Kenobi: Hello there!```
 4. Zakomentujte volání fce ```greetings()``` a pokračujte na dalším řádku (původní kód ponechte)
-5. Práce s čísly
+---
+## Datové typy
+
+1. Zopakujte si datové typy
+   - celá čísla (int)
+   - desetinná (float, number)
+   - string
+   - array
+   - object
+   - null / undefined
+
+---
+## Práce s čísly
+
+1. Vyzkoušejte si základní aritmetické operace s datovým typem ``int`` a ``number``
+2. Přetypování
+   - naučte se přetypovávat číslo, které je jako string (``"10"``) na číslo (``10``)
+   - vyzkoušejte si, co se stane, pokud se pokusíte sečíst 2 čísla, která jsou jako ``string``
+
+---
+
+## Práce se stringy
+
+1. Jak funguje concat (spojování stringů)
+2. Zjistěte, jak zajistit transformaci textu:
+   - všechna písmena velká
+   - všechna písmena malá
+   - pouze první písmeno velké
+
+---
+
+## Podmínky a cykly
+
+1. Nastudujte si podmínky
+   - ``if`` a ``else``
+   - ``else if``
+   - ``switch``
+2. Nastudujte si, co je to ternární operátor a jak se používá
+3. Nastudujte si cykly
+   - ``for``
+   - ``foreach``
+   - ``while``
+
+---
+
+## Funkce
+
+1. Co je to funkce
+2. Jak ji zapíšeme a zavoláme
+3. Návratová hodnota 
+4. Argumenty funkce (jak funkci předáme argumenty a jak s nimi pracujeme)
+5. Funkce bez argumentů
+6. Funkce s argumenty
+7. Anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
+
+---
+## Funkce s čísly
    1. Vytvořte fci ```square```, která bude mít na vstupu parametr ```a``` (číslo musí být větší než 0), vypočítá obsah čtverce a toto číslo vypište pomocí ```console.log()```
    2. Vytvořte fci ```rectangle```, která bude mít dva vstupní parametry ```a``` a ```b``` (čísla musí být větší než 0), a která vypíše obsah obdélníku stejn ějako v předchozím bodě
    3. Vytvořte fci ``highest``, která bude mít na vstupu pole čísel. Úkolem fce bude v tomto poli najít nejvyšší číslo a to vrátit / vypsat do konzole.
@@ -22,11 +78,9 @@
        - ``avg`` - aritmetický průměr
        - ``modus`` - modus
        - ``median`` - medián
-6. Nastudujte si, co jsou to anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
-7. Nastudujte si, co je to ternární operátor a jak se používá
-8. Práce se stringy
-   1. Jak funguje concat (spojování stringů)
-   2. Zjistěte, jak zajistit transformaci textu:
-      - všechna písmena velká
-      - všechna písmena malá
-      - pouze první písmeno velké
+
+---
+
+## Objekty
+
+---
