@@ -9,7 +9,7 @@
 3. V CLI se pronavigujte do tohoto adresáže a zadejte ```node index.js```, výstupem by mělo být vypsání  ```General Kenobi: Hello there!```
 4. Zakomentujte volání fce ```greetings()``` a pokračujte na dalším řádku (původní kód ponechte)
 ---
-## Datové typy
+## a) Datové typy
 
 1. Zopakujte si datové typy
    - celá čísla (int)
@@ -20,7 +20,7 @@
    - null / undefined
 
 ---
-## Práce s čísly
+## b) Práce s čísly
 
 1. Vyzkoušejte si základní aritmetické operace s datovým typem ``int`` a ``number``
 2. Přetypování
@@ -29,7 +29,7 @@
 
 ---
 
-## Práce se stringy
+## c) Práce se stringy
 
 1. Jak funguje concat (spojování stringů)
 2. Zjistěte, jak zajistit transformaci textu:
@@ -39,7 +39,7 @@
 
 ---
 
-## Podmínky a cykly
+## d) Podmínky a cykly
 
 1. Nastudujte si podmínky
    - ``if`` a ``else``
@@ -53,7 +53,7 @@
 
 ---
 
-## Funkce
+## e) Funkce
 
 1. Co je to funkce
 2. Jak ji zapíšeme a zavoláme
@@ -64,7 +64,7 @@
 7. Anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
 
 ---
-## Funkce s čísly
+## f) Funkce s čísly
    1. Vytvořte fci ```square```, která bude mít na vstupu parametr ```a``` (číslo musí být větší než 0), vypočítá obsah čtverce a toto číslo vypište pomocí ```console.log()```
    2. Vytvořte fci ```rectangle```, která bude mít dva vstupní parametry ```a``` a ```b``` (čísla musí být větší než 0), a která vypíše obsah obdélníku stejn ějako v předchozím bodě
    3. Vytvořte fci ``highest``, která bude mít na vstupu pole čísel. Úkolem fce bude v tomto poli najít nejvyšší číslo a to vrátit / vypsat do konzole.
@@ -81,6 +81,6 @@
 
 ---
 
-## Objekty
+## g) Objekty
 
 ---
