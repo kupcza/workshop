@@ -104,9 +104,24 @@
    - String může být libovolně dlouhý (ale řekněme, že max délka může být 20 znaků
    - String bude vždy vystředěn (tzn bude zarovnán na střed) (hint: počet mezer nalevo i napravo je shodný)
 6. Navrhněte rozšíření fce z předchozího bodu tak, že uživatel si bude moct zadat nejen komentář, ale i dekorační znak. Tzn hvězdička může být nahrazena čímkoliv.
-
+7. Napište fci ``yoda``, která bude mít na vstupu proměnnou typu ``string``. Tato funkce vezme daný string, a obrátí pořadí slov. Tedy na vstupu ``I am your father`` bude na výstupu ``father your am I``
+8. Výše uvedenou fci upravte tak, aby v případě, že věta končí znaky ``. , ! ?`` byly tyto znaky ponechány na konci výstupní věty. Dále zařiďte, aby věta v obráceném pořadí začínala velkým písmenem.
+   
+   ````
+    I am your father!
+   ````
+   Bude
+   ````
+   Father your am I!
+   ````
 ---
 
 ## h) Objekty
 
+1. Nastudujte si co jsou to třídy (objekty) a jak se v JS zapisují - vytvořte třídu ``Car``
+2. Tato třída bude mít 3 atributy, které bude potřeba zadat během inicializace objektu.
+   - ``brand``
+   - ``model``
+   - ``year``
+3. Třída bude mít funkci s názvem ``output``, jejíž návratová hodnota bude "``brand``, ``model`` - rok výroby: ``year``"
 ---
