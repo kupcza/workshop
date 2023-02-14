@@ -23,10 +23,12 @@
 ---
 ## b) Práce s čísly
 
-1. Vyzkoušejte si základní aritmetické operace s datovým typem ``int`` a ``number``
+1. Vyzkoušejte si základní aritmetické operace s datovým typem ``int`` a ``number`` + modulus
 2. Přetypování
    - naučte se přetypovávat číslo, které je jako string (``"10"``) na číslo (``10``)
    - vyzkoušejte si, co se stane, pokud se pokusíte sečíst 2 čísla, která jsou jako ``string``
+3. Zaokrouhlení čísla (nahoru, dolů, aritmetické zaokrouhlení)
+4. Definování počtu desetinných míst
 
 ---
 
@@ -60,11 +62,15 @@
 
 1. Co je to funkce
 2. Jak ji zapíšeme a zavoláme
+   - vytvořte fci s názvem ``greetings`` a v jejím těle definujte proměnnou s názvem ``text`` a hodnotou ``Hello there!``. Obsah této proměnné vypište do konzole (přímo v těle fce).
 3. Návratová hodnota 
-4. Argumenty funkce (jak funkci předáme argumenty a jak s nimi pracujeme)
-5. Funkce bez argumentů
-6. Funkce s argumenty
-7. Anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
+   - funkci z předchozího bodu upravte tak aby nevypisovala do konzolze hodnotu promenné ``text``, ale aby ji vrátila
+4. Funkce bez argumentů
+5. Funkce s argumenty
+6. Argumenty funkce (jak funkci předáme argumenty a jak s nimi pracujeme)
+   - upravte fci ``greetings`` tak, na vstupu měla argument s názvem ``name``.
+   - fci zavolejte jako ``greetings("Anakin")``, kdy očekávaný výstup fce bude ``Anakin, hello there!``
+7. (optional) Anonymní funkce a jak je možné je zavolat automaticky bez jejich zavolání
 
 ---
 ## f) Funkce s čísly
