@@ -130,7 +130,11 @@
    - ``model``
    - ``year``
 3. Třída bude mít funkci s názvem ``output``, jejíž návratová hodnota bude "``brand``, ``model`` - rok výroby: ``year``"
-4. Vytvořte objekt ``Statistics``, který bude implementovat fce z bodu ``f6``. Plus jednu hlavní fci ``calculate``. Ta bude mít jeden vstupní argument typu array a její návratová hodnota bude právě objekt viz ``f6``. Volání potom proběhne jako ``var result = Statistics().calculate([5,9,-9,-16,4])``
+4. Vytvořte objekt ``Statistics``, který bude implementovat fce z bodu ``f6``. Plus jednu hlavní fci ``calculate``. Ta bude mít jeden vstupní argument typu array a její návratová hodnota bude právě objekt viz ``f6``. Volání potom proběhne jako ``var result = (new Statistics()).calculate([5,9,-9,-16,4])`` případně jako
+   ````
+   var stats = Statistics();
+   console.log(stats.calculate([5,9,-9,-16,4]);
+   ````
 5. Vytvořte objekt ``InternetBanking``. Představte si to jako reálné bankovnictví. Tzn bude mít historii transakcí a objem peněz na účtu
    - objekt bude podporovat měnu v CZK a EUR s tím, že kurz pro přepočet je 1EUR = 26.50CZK
 - tento objekt bude mít fce pro:
