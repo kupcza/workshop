@@ -130,7 +130,11 @@
    - ``model``
    - ``year``
 3. Třída bude mít funkci s názvem ``output``, jejíž návratová hodnota bude "``brand``, ``model`` - rok výroby: ``year``"
-4. Vytvořte objekt ``Statistics``, který bude implementovat fce z bodu ``f6``. Plus jednu hlavní fci ``calculate``. Ta bude mít jeden vstupní argument typu array a její návratová hodnota bude právě objekt viz ``f6``. Volání potom proběhne jako ``var result = (new Statistics()).calculate([5,9,-9,-16,4])`` případně jako
+4. Vytvořte objekt ``Statistics``, který bude implementovat fce z bodu ``f6``. Plus jednu hlavní fci ``calculate``. Ta bude mít jeden vstupní argument typu array a její návratová hodnota bude právě objekt viz ``f6``. Volání potom proběhne jako 
+   ````
+   var result = (new Statistics()).calculate([5,9,-9,-16,4])
+   ```` 
+   případně jako
    ````
    var stats = Statistics();
    console.log(stats.calculate([5,9,-9,-16,4]);
