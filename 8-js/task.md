@@ -139,7 +139,7 @@
    var stats = Statistics();
    console.log(stats.calculate([5,9,-9,-16,4]);
    ````
-5. Vytvořte objekt ``InternetBanking``. Představte si to jako reálné bankovnictví. Tzn bude mít historii transakcí a objem peněz na účtu
+5. Vytvořte třídu ``InternetBanking``. Představte si to jako reálné bankovnictví. Tzn bude mít historii transakcí a objem peněz na účtu
    - objekt bude podporovat měnu v CZK a EUR s tím, že kurz pro přepočet je 1EUR = 26.50CZK
 - tento objekt bude mít fce pro:
     - operace (viz níže) je složena ze 3 parametrů 
@@ -150,7 +150,15 @@
     - debetní (odchozí platby) operace
     - porovnání dvou částek v různých měnách tzn 1EUR == 26.50 CZK
     - výpis všech transakcí
-    - výpis zůstatku na účtu
+    - výpis zůstatku na účtu (v obou měnách)
     - výpis všech kreditních operací
     - výpis všech debetních operací
+6. Upravte `InternetBanking` následovně:
+   - každá transakce bude mít vlastní unikátní ID (tvar je libovolný)
+   - napište fci, která porovná 2 různé transakce na základě jejich unikátních ID (tzn transakce, které jsou již v bankovnictví)
+   - (optional) zkuste napsat fci viz výše, ale na vstupu bude neomezený počet ID
+     ````
+     function compareByIds(...id) {}
+     ````
+   - Vytáhněte objekt transakce do samostatné třídy `class Transaction` a upravte kód tak, aby všechny transakce InternetBankingu byly právě objekty vytvořené z této třídy.
 ---
