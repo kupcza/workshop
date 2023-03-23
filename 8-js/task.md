@@ -160,5 +160,12 @@
      ````
      function compareByIds(...id) {}
      ````
+     variantou této fce by byla její obdoba, kdy fce akceptuje 1 parametr (argument), který je typu pole. V tomto poli budou uvedena jednotlivá ID transakcí
+     ````
+     function compareByIdsArray(array) {}
+     
+     compareByIdsArray(["id1", "id2", "id3", ...]);
+     ````
+     Výsledkem bude, porovnání všech vstupních transakcí, zda jsou stejné hodnoty.
    - Vytáhněte objekt transakce do samostatné třídy `class Transaction` a upravte kód tak, aby všechny transakce InternetBankingu byly právě objekty vytvořené z této třídy.
 ---
