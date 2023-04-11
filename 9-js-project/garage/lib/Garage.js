@@ -6,6 +6,8 @@ export class Garage {
     owner;
     cars = [];
 
+    #carLastId = 0;
+
     constructor(owner) {
 
         if(!(owner instanceof Owner)) {
@@ -22,16 +24,19 @@ export class Garage {
         }, this.owner.money);
     }
 
-    buyCar(car) {
+    buyCar(brand, model, year, price) {
 
-        if(!(car instanceof Car)) {
-            throw "Car must be instance of class Car";
-        }
-
-        if(car.price > this.moneyAvailable) {
+        if(price > this.moneyAvailable) {
             throw "You cannot buy this car, it's too expensive";
         }
 
-        this.cars.push(car);
+        this.cars.push(new Car(this.getNewCarId(), brand, model, year, price));
+    }
+
+    getNewCarId() {
+
+        this.#carLastId++;
+
+        return this.#carLastId;
     }
 }

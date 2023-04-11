@@ -28,7 +28,7 @@ function error(status, msg) {
 app.get("/", function(req, res) {
 
     if(garage == null) {
-        res.status(400).send(error(400, "You neew to create garage first"));
+        res.status(400).send(error(400, "You need to create garage first"));
     } else {
 
         res.send(garage);
@@ -58,7 +58,7 @@ app.post("/buy-car", function(req, res) {
 
     try {
 
-        garage.buyCar(new Car(body.id, body.brand, body.model, body.year, body.price));
+        garage.buyCar(body.brand, body.model, body.year, body.price);
 
         res.send({
             cars: garage.cars,
@@ -82,12 +82,9 @@ var garage = null;
 try {
 
     garage = new Garage(new Owner("Petr Kupčík", 1000000));
-
-
-    let car = new Car(1, "Mazda", "6", 2020, 1000000);
     
-    garage.buyCar(car);
-    garage.buyCar(car);
+    garage.buyCar("Mazda", "6", 2020, 1000000);
+    garage.buyCar("Mazda", "6", 2020, 1000000);
 
     console.log(garage.cars);
 
