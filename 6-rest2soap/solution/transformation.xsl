@@ -1,22 +1,24 @@
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fce="http://example.com/fce">
     <xsl:output omit-xml-declaration="yes" indent="yes"/>
 
+    <!-- Create temporary var, so it's not neccessary to use whole xpath -->
+    <xsl:variable name="brand_temp">
+        <xsl:value-of select="/root/body/RequestData/filter/brand"/>
+    </xsl:variable>
+
+    <!-- Set the brand var while applying some validation rules -->
+    <xsl:variable name="brand">
+        <xsl:choose>
+            <xsl:when test="$brand_temp = 1 or $brand_temp = 2 or $brand_temp = 3">
+                <xsl:value-of select="$brand_temp"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>0</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+
     <xsl:template match="/">
-
-        <xsl:variable name="brand_temp">
-            <xsl:value-of select="/root/body/RequestData/filter/brand"/>
-        </xsl:variable>
-
-        <xsl:variable name="brand">
-            <xsl:choose>
-                <xsl:when test="$brand_temp = 1 or $brand_temp = 2 or $brand_temp = 3">
-                    <xsl:value-of select="$brand_temp"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text>0</xsl:text>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
 
         <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.jpower8.com/newDeveloper/soap">
             <soapenv:Header/>
@@ -62,7 +64,9 @@
                                 <soap:hours>
                                     <!--1 to 7 repetitions:-->
                                     <soap:hour>
-                                        <soap:day>Day</soap:day>
+                                        <soap:day>
+                                            <xsl:value-of select="format-date(current-date(), '[FNn], the [D1o] of [MNn], [Y01]')"/>
+                                        </soap:day>
                                         <soap:from>08:00</soap:from>
                                         <soap:to>16:00</soap:to>
                                     </soap:hour>
@@ -97,4 +101,5 @@
         </soapenv:Envelope>
 
     </xsl:template>
+
 </xsl:stylesheet>

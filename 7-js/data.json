@@ -1,290 +1,412 @@
-[
-    {
-        "id": 9223372000001090591,
-        "category": {
-            "id": 52695439,
-            "name": "ipsum"
-        },
-        "name": "doggie",
-        "photoUrls": [
-            "pariatur ad consequat dolor ",
-            "esse veniam"
+{
+  "status": 200,
+  "success": true,
+  "data": {
+    "events": [
+      {
+        "eventId": 1,
+        "slug": "presentation-of-business-results",
+        "title": "Presentation of Business Results",
+        "description": "Announcement of Business Results for the 2Q and Six Months Ended September 30, 2020 Masahiko Okamoto, Member of the Board",
+        "categories": [
+          2,
+          5
         ],
-        "tags": [
-            {
-                "id": 94902596,
-                "name": "cupidatat esse in adipisicing"
+        "imageUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-photos\/1664698067-1676.jpg",
+        "promoted": true,
+        "attachments": [
+          {
+            "title": "Sample Monthly Business Report.pdf",
+            "url": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-attachments\/1663240084-342775.pdf",
+            "type": "file"
+          },
+          {
+            "title": "Rozvrh - Filip.pdf",
+            "url": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-attachments\/1669710619-46333.pdf",
+            "type": "file"
+          },
+          {
+            "title": "Rozvrh - R\u00ed\u0161a.pdf",
+            "url": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-attachments\/1669710658-323645.pdf",
+            "type": "file"
+          }
+        ],
+        "owners": [
+          {
+            "name": "HR Department",
+            "description": "Human resources (HR) is the set of people who make up the <a title=\"Workforce\" href=\"https:\/\/en.wikipedia.org\/wiki\/Workforce\">workforce<\/a> of an <a title=\"Organization\" href=\"https:\/\/en.wikipedia.org\/wiki\/Organization\">organization<\/a>, <a title=\"Business sector\" href=\"https:\/\/en.wikipedia.org\/wiki\/Business_sector\">business sector<\/a>, industry, or <a title=\"Economy\" href=\"https:\/\/en.wikipedia.org\/wiki\/Economy\">economy<\/a>. A narrower concept is <a title=\"Human capital\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_capital\">human capital<\/a>, the knowledge and skills which the individuals command. Similar terms include manpower, <a title=\"Labour (human activity)\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labour_(human_activity)\">labor<\/a>, personnel, associates or simply: people.<br>The Human Resources department (HR department) of an organization performs <a title=\"Human resource management\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resource_management\">human resource management<\/a>, overseeing various aspects of <a title=\"Employment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employment\">employment<\/a>, such as compliance with <a title=\"Labor law\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labor_law\">labor law<\/a> and employment standards, <a title=\"Job interview\" href=\"https:\/\/en.wikipedia.org\/wiki\/Job_interview\">interviewing and selection<\/a>, performance management, administration of <a title=\"\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employee_benefits\">Employee benefits<\/a>, organizing of employee files with the required documents for future reference, and some aspects of <a title=\"Recruitment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Recruitment\">recruitment<\/a> (also known as <a title=\"Talent acquisition\" href=\"https:\/\/en.wikipedia.org\/wiki\/Talent_acquisition\">talent acquisition<\/a>) and employee <a title=\"Offboarding\" href=\"https:\/\/en.wikipedia.org\/wiki\/Offboarding\">offboarding<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resources#cite_note-:1-1\">[1]<\/a> They serve as the link between an organization's management and its employees.<br><strong>Source:<\/strong> https:\/\/en.wikipedia.org\/wiki\/Human_resources<br>&nbsp;",
+            "email": "hr@office8.cz",
+            "phone": {
+              "countryCode": 1,
+              "localNumber": "520800800"
             },
-            {
-                "id": -59393355,
-                "name": "no"
-            }
+            "photoUrl": ""
+          }
         ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090592,
-        "category": {
-            "id": 96865621,
-            "name": "dolore nulla velit sunt qui"
-        },
-        "name": "Jamie",
-        "photoUrls": [
-            "proident L",
-            "dolor cillum"
-        ],
-        "tags": [
-            {
-                "id": -67157186,
-                "name": "n"
+        "restricted": false,
+        "likesCount": 0,
+        "liked": false,
+        "saved": false,
+        "items": [
+          {
+            "itemId": 1,
+            "startTime": "2022-01-06T15:00:00+01:00",
+            "endTime": "2022-02-07T17:00:00+01:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "Roztylsk\u00e1 1860\/1, 148 00 Praha 4 \u2013 Chodov",
+              "addressUrl": "https:\/\/en.mapy.cz\/zakladni?q=Roztylsk%C3%A1%201860%2F1%20148%2000%20Praha%204%20%E2%80%93%20Chodov&source=addr&id=8950190&ds=1&x=14.4990533&y=50.0220858&z=17",
+              "meetingRoom": "8. patro, 806"
             },
-            {
-                "id": -88140252,
-                "name": "dolor la"
-            }
-        ],
-        "status": "available"
-    },
-    {
-        "id": 393245,
-        "category": {
-            "id": 54664,
-            "name": "totvs"
-        },
-        "name": "Meu Dog",
-        "photoUrls": [],
-        "tags": [],
-        "status": "available"
-    },
-    {
-        "id": 9223372000001090789,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 1,
-                "name": "red"
-            }
-        ],
-        "status": "available"
-    },
-    {
-        "id": 9223372000001090791,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Dobby",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 0,
-                "name": "string"
-            }
-        ],
-        "status": "sold"
-    },
-    {
-        "id": 9223372000001090845,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 6,
-                "name": "white"
+            "onlineUrl": "https:\/\/en.mapy.cz\/zakladni?source=base&id=1916013&ds=1&x=14.4204476&y=50.0871083&z=17",
+            "speakers": [
+              {
+                "name": "Meridith Elliott Powell",
+                "description": "Voted one of the Top 15 Business Growth Experts to Watch by Currency Fair, sales and leadership expert Meridith Elliott Powell is an <strong>award-winning author<\/strong>, keynote speaker and business strategist. With a background in<br><ul><br><li>corporate sales<\/li><br><li>leadership<\/li><br><\/ul><br>Her career expands over several industries including banking, healthcare, and finance. Meridith worked her way up from an entry-level position to earn her seat at the C-Suite table. Meridith is a <em>Certified Speaking Professional (CSP)<\/em>, a designation held by less than twelve percent of professional speakers. She is passionate about helping her clients learn the sales and leadership strategies they need to succeed no matter what this marketplace does.",
+                "email": "mepowell@office8.cz",
+                "phone": {
+                  "countryCode": null,
+                  "localNumber": "875025799"
+                },
+                "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-speaker-avatars\/1664697151-2617.jpg"
+              }
+            ],
+            "price": "FREE",
+            "capacity": 50,
+            "waitingListAllowed": false,
+            "registeredCount": 10,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
             },
-            {
-                "id": 80,
-                "name": "cat"
-            }
-        ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090847,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Dobby",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 6,
-                "name": "dogs"
+            "rated": false
+          },
+          {
+            "itemId": 22,
+            "startTime": "2022-01-01T15:00:00+01:00",
+            "endTime": "2022-02-01T17:00:00+01:00",
+            "locations": [
+              2
+            ],
+            "place": {
+              "address": "Roztylsk\u00e1 1860\/1, 148 00 Praha 4 \u2013 Chodov",
+              "addressUrl": "https:\/\/en.mapy.cz\/zakladni?q=Roztylsk%C3%A1%201860%2F1%20148%2000%20Praha%204%20%E2%80%93%20Chodov&source=addr&id=8950190&ds=1&x=14.4990533&y=50.0220858&z=17",
+              "meetingRoom": "8. patro, 806"
             },
-            {
-                "id": 3,
-                "name": "friendly"
+            "onlineUrl": "",
+            "speakers": [
+              {
+                "name": "Adrian Meronk",
+                "description": "",
+                "email": "adrian@office8.cz",
+                "phone": {
+                  "countryCode": null,
+                  "localNumber": ""
+                },
+                "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-speaker-avatars\/1662064401-3643.png"
+              }
+            ],
+            "price": "FREE",
+            "capacity": 28,
+            "waitingListAllowed": false,
+            "registeredCount": 2,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
             },
-            {
-                "id": 9,
-                "name": "black"
-            }
+            "rated": false
+          }
+        ]
+      },
+      {
+        "eventId": 7,
+        "slug": "past-event",
+        "title": "Past event",
+        "description": "Happened in past.",
+        "categories": null,
+        "imageUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-photos\/1664301700-9489.jpg",
+        "promoted": true,
+        "attachments": null,
+        "owners": [
+          {
+            "name": "Ema Greene",
+            "description": "",
+            "email": "ema@office8.cz",
+            "phone": {
+              "countryCode": 1,
+              "localNumber": "7251648747"
+            },
+            "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-owner-avatars\/1662064101-2731.jpeg"
+          }
         ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090860,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
+        "restricted": false,
+        "likesCount": 0,
+        "liked": false,
+        "saved": false,
+        "items": [
+          {
+            "itemId": 10,
+            "startTime": "2022-08-05T14:00:00+02:00",
+            "endTime": "2022-08-05T16:00:00+02:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "Main Square 5",
+              "addressUrl": "",
+              "meetingRoom": ""
+            },
+            "onlineUrl": "",
+            "speakers": null,
+            "price": "FREE",
+            "capacity": 0,
+            "waitingListAllowed": false,
+            "registeredCount": 2,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          }
+        ]
+      },
+      {
+        "eventId": 9,
+        "slug": "softskills-for-managers",
+        "title": "Softskills for Managers",
+        "description": "LEAD leverages Stanford Graduate School of Business faculty and curriculum to provide you with the tools and techniques to become a more effective changemaker and leader. Join a vibrant community of changemakers in this program prepared to learn, engage, accelerate, and disrupt their organizations, industries, and the world. Discover your purpose and maximize your potential with LEAD.",
+        "categories": [
+          2
         ],
-        "tags": [
-            {
-                "id": 0,
-                "name": "string"
-            }
+        "imageUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-photos\/1676967081-5873.jpg",
+        "promoted": false,
+        "attachments": null,
+        "owners": [
+          {
+            "name": "HR Department",
+            "description": "Human resources (HR) is the set of people who make up the <a title=\"Workforce\" href=\"https:\/\/en.wikipedia.org\/wiki\/Workforce\">workforce<\/a> of an <a title=\"Organization\" href=\"https:\/\/en.wikipedia.org\/wiki\/Organization\">organization<\/a>, <a title=\"Business sector\" href=\"https:\/\/en.wikipedia.org\/wiki\/Business_sector\">business sector<\/a>, industry, or <a title=\"Economy\" href=\"https:\/\/en.wikipedia.org\/wiki\/Economy\">economy<\/a>. A narrower concept is <a title=\"Human capital\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_capital\">human capital<\/a>, the knowledge and skills which the individuals command. Similar terms include manpower, <a title=\"Labour (human activity)\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labour_(human_activity)\">labor<\/a>, personnel, associates or simply: people.<br>The Human Resources department (HR department) of an organization performs <a title=\"Human resource management\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resource_management\">human resource management<\/a>, overseeing various aspects of <a title=\"Employment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employment\">employment<\/a>, such as compliance with <a title=\"Labor law\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labor_law\">labor law<\/a> and employment standards, <a title=\"Job interview\" href=\"https:\/\/en.wikipedia.org\/wiki\/Job_interview\">interviewing and selection<\/a>, performance management, administration of <a title=\"\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employee_benefits\">Employee benefits<\/a>, organizing of employee files with the required documents for future reference, and some aspects of <a title=\"Recruitment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Recruitment\">recruitment<\/a> (also known as <a title=\"Talent acquisition\" href=\"https:\/\/en.wikipedia.org\/wiki\/Talent_acquisition\">talent acquisition<\/a>) and employee <a title=\"Offboarding\" href=\"https:\/\/en.wikipedia.org\/wiki\/Offboarding\">offboarding<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resources#cite_note-:1-1\">[1]<\/a> They serve as the link between an organization's management and its employees.<br><strong>Source:<\/strong> https:\/\/en.wikipedia.org\/wiki\/Human_resources<br>&nbsp;",
+            "email": "hr@office8.cz",
+            "phone": {
+              "countryCode": 1,
+              "localNumber": "520800800"
+            },
+            "photoUrl": ""
+          }
         ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090865,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Dobby",
-        "photoUrls": [
-            "string"
+        "restricted": false,
+        "likesCount": 0,
+        "liked": false,
+        "saved": false,
+        "items": [
+          {
+            "itemId": 18,
+            "startTime": "2023-02-28T12:00:00+01:00",
+            "endTime": "2023-02-28T13:00:00+01:00",
+            "locations": [
+              2
+            ],
+            "place": {
+              "address": "",
+              "addressUrl": "",
+              "meetingRoom": "1A35"
+            },
+            "onlineUrl": "",
+            "speakers": [
+              {
+                "name": "Meridith Elliott Powell",
+                "description": "Voted one of the Top 15 Business Growth Experts to Watch by Currency Fair, sales and leadership expert Meridith Elliott Powell is an <strong>award-winning author<\/strong>, keynote speaker and business strategist. With a background in<br><ul><br><li>corporate sales<\/li><br><li>leadership<\/li><br><\/ul><br>Her career expands over several industries including banking, healthcare, and finance. Meridith worked her way up from an entry-level position to earn her seat at the C-Suite table. Meridith is a <em>Certified Speaking Professional (CSP)<\/em>, a designation held by less than twelve percent of professional speakers. She is passionate about helping her clients learn the sales and leadership strategies they need to succeed no matter what this marketplace does.",
+                "email": "mepowell@office8.cz",
+                "phone": {
+                  "countryCode": null,
+                  "localNumber": "875025799"
+                },
+                "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-speaker-avatars\/1664697151-2617.jpg"
+              }
+            ],
+            "price": "2000 CZK",
+            "capacity": 10,
+            "waitingListAllowed": false,
+            "registeredCount": 2,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          }
+        ]
+      },
+      {
+        "eventId": 15,
+        "slug": "star-wars",
+        "title": "Star Wars",
+        "description": "Star Wars, the science-fiction saga created by George Lucas, has marked a before and after in the entertainment world. And it goes further than that! The Star Wars legacy has had an influence on diverse industries such as filmmaking, gaming, technology and even science. If you have a product or service for devotees of pop culture, there\u2019s nothing better than the Star Wars Themed Presentation! Use the Star Wars Team Slide, Star Wars Divider Slide, and Star Wars Graphics for a winning pitch deck presentation.",
+        "categories": [
+          1
         ],
-        "tags": [
-            {
-                "id": 11,
-                "name": "string"
-            }
+        "imageUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-photos\/1673291379-7979.jpg",
+        "promoted": true,
+        "attachments": null,
+        "owners": [
+          {
+            "name": "Ema Greene",
+            "description": "",
+            "email": "ema@office8.cz",
+            "phone": {
+              "countryCode": 1,
+              "localNumber": "7251648747"
+            },
+            "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-owner-avatars\/1662064101-2731.jpeg"
+          },
+          {
+            "name": "Jon Snow",
+            "description": "Jon Snow, born Aegon Targaryen,[N 1] is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark, Lyanna's brother, and raised alongside Eddard's lawful children at Winterfell. Jon's true parentage is kept secret from everyone, including Jon himself, in order to protect him from those that sought the complete annihilation of House Targaryen.<br>Jon joins the Night's Watch and is later elected as Lord Commander. As a result of several controversial decisions, such as allowing the wildlings to settle south of the Wall, Jon is murdered in a mutiny, but is resurrected by Melisandre.",
+            "email": "jon@thewall.com",
+            "phone": {
+              "countryCode": null,
+              "localNumber": ""
+            },
+            "photoUrl": "https:\/\/cms-dev.office8.cz\/wp-json\/o8-core\/v1\/providers\/file?asset=event-owner-avatars\/1666289050-6595.png"
+          }
         ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090944,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
+        "restricted": false,
+        "likesCount": 0,
+        "liked": false,
+        "saved": false,
+        "items": [
+          {
+            "itemId": 26,
+            "startTime": "2023-08-17T12:00:00+02:00",
+            "endTime": "2023-08-17T12:00:00+02:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "",
+              "addressUrl": "",
+              "meetingRoom": ""
+            },
+            "onlineUrl": "",
+            "speakers": null,
+            "price": "FREE",
+            "capacity": 0,
+            "waitingListAllowed": false,
+            "registeredCount": 1,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          },
+          {
+            "itemId": 27,
+            "startTime": "2023-10-12T12:00:00+02:00",
+            "endTime": "2023-10-12T12:00:00+02:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "",
+              "addressUrl": "",
+              "meetingRoom": ""
+            },
+            "onlineUrl": "",
+            "speakers": null,
+            "price": "FREE",
+            "capacity": 0,
+            "waitingListAllowed": false,
+            "registeredCount": 3,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          }
+        ]
+      },
+      {
+        "eventId": 17,
+        "slug": "breakfast-with-ceo",
+        "title": "Breakfast with CEO",
+        "description": "Breakfast with CEO",
+        "categories": [
+          1
         ],
-        "tags": [
-            {
-                "id": 100,
-                "name": "string"
-            }
+        "imageUrl": "",
+        "promoted": true,
+        "attachments": null,
+        "owners": [
+          {
+            "name": "HR Department",
+            "description": "Human resources (HR) is the set of people who make up the <a title=\"Workforce\" href=\"https:\/\/en.wikipedia.org\/wiki\/Workforce\">workforce<\/a> of an <a title=\"Organization\" href=\"https:\/\/en.wikipedia.org\/wiki\/Organization\">organization<\/a>, <a title=\"Business sector\" href=\"https:\/\/en.wikipedia.org\/wiki\/Business_sector\">business sector<\/a>, industry, or <a title=\"Economy\" href=\"https:\/\/en.wikipedia.org\/wiki\/Economy\">economy<\/a>. A narrower concept is <a title=\"Human capital\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_capital\">human capital<\/a>, the knowledge and skills which the individuals command. Similar terms include manpower, <a title=\"Labour (human activity)\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labour_(human_activity)\">labor<\/a>, personnel, associates or simply: people.<br>The Human Resources department (HR department) of an organization performs <a title=\"Human resource management\" href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resource_management\">human resource management<\/a>, overseeing various aspects of <a title=\"Employment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employment\">employment<\/a>, such as compliance with <a title=\"Labor law\" href=\"https:\/\/en.wikipedia.org\/wiki\/Labor_law\">labor law<\/a> and employment standards, <a title=\"Job interview\" href=\"https:\/\/en.wikipedia.org\/wiki\/Job_interview\">interviewing and selection<\/a>, performance management, administration of <a title=\"\" href=\"https:\/\/en.wikipedia.org\/wiki\/Employee_benefits\">Employee benefits<\/a>, organizing of employee files with the required documents for future reference, and some aspects of <a title=\"Recruitment\" href=\"https:\/\/en.wikipedia.org\/wiki\/Recruitment\">recruitment<\/a> (also known as <a title=\"Talent acquisition\" href=\"https:\/\/en.wikipedia.org\/wiki\/Talent_acquisition\">talent acquisition<\/a>) and employee <a title=\"Offboarding\" href=\"https:\/\/en.wikipedia.org\/wiki\/Offboarding\">offboarding<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Human_resources#cite_note-:1-1\">[1]<\/a> They serve as the link between an organization's management and its employees.<br><strong>Source:<\/strong> https:\/\/en.wikipedia.org\/wiki\/Human_resources<br>&nbsp;",
+            "email": "hr@office8.cz",
+            "phone": {
+              "countryCode": 1,
+              "localNumber": "520800800"
+            },
+            "photoUrl": ""
+          }
         ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001090946,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Dobby",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 7,
-                "name": "string"
-            }
-        ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001091050,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 66,
-                "name": "string"
-            }
-        ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001091055,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Dobby",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [
-            {
-                "id": 3,
-                "name": "yellow"
-            }
-        ],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001091209,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Jamie",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [],
-        "status": "pending"
-    },
-    {
-        "id": 9223372000001091266,
-        "category": {
-            "id": 0,
-            "name": "cats"
-        },
-        "name": "Bruno",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [],
-        "status": "sold"
-    },
-    {
-        "id": 9223372000001091268,
-        "category": {
-            "id": 0,
-            "name": "dogs"
-        },
-        "name": "Cucu",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [],
-        "status": "available"
+        "restricted": false,
+        "likesCount": 0,
+        "liked": false,
+        "saved": false,
+        "items": [
+          {
+            "itemId": 31,
+            "startTime": "2023-01-19T10:50:00+01:00",
+            "endTime": "2023-01-19T11:05:00+01:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "",
+              "addressUrl": "",
+              "meetingRoom": ""
+            },
+            "onlineUrl": "",
+            "speakers": null,
+            "price": "FREE",
+            "capacity": 0,
+            "waitingListAllowed": true,
+            "registeredCount": 1,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          },
+          {
+            "itemId": 32,
+            "startTime": "2023-01-19T10:54:00+01:00",
+            "endTime": "2023-01-19T10:55:00+01:00",
+            "locations": [
+              1
+            ],
+            "place": {
+              "address": "",
+              "addressUrl": "",
+              "meetingRoom": ""
+            },
+            "onlineUrl": "",
+            "speakers": null,
+            "price": "FREE",
+            "capacity": 0,
+            "waitingListAllowed": true,
+            "registeredCount": 1,
+            "registered": {
+              "onWaitingList": false,
+              "onEvent": false
+            },
+            "rated": false
+          }
+        ]
+      }
+    ],
+    "pagingInfo": {
+      "nextPage": null,
+      "itemsPerPage": 20
     }
-]
+  }
+}
