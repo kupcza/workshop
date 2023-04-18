@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>My Garage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- header with menu -->
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </header>
+    </div>
+    <!-- / header with menu -->
+
+    <div class="container m-t-5">
+        <div class="row align-items-start py-5">
+            <div class="mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="name" placeholder="John Doe">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="number" class="form-control" id="money" placeholder="123456">
+                        <label for="money">Money</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary " type="submit">Create</button>
+                </form>
+            </div>
+            <div class="col-lg-7">
+                <div class="p-md-5 border rounded-3 bg-body-tertiary">
+
+                    <div class="form-floating mb-3">
+                        <span class="form-control">John Doe</span>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <span class="form-control">100000</span>
+                        <label for="money">Initial money</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <span class="form-control">100000</span>
+                        <label for="money">Account balance</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-2">
+            <h2>Transactions</h2>
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                <div class="row g-3">
+                    <div class="col">
+                        <div class="form-floating mb-3 ">
+                            <input type="number" class="form-control" id="amount">
+                            <label for="name">Amount</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+
+                            <select id="currency" class="form-select">
+                                <option>CZK</option>
+                                <option>EUR</option>
+                            </select>
+                            <label for="currency">Currency</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-floating mb-3">
+
+                            <select id="type" class="form-select">
+                                <option>Credit</option>
+                                <option>Debit</option>
+                            </select>
+                            <label for="type">Type</label>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="btn btn-lg btn-primary" type="submit">Add</button>
+
+            </form>
+        </div>
+
+        <div class="m-t-2">
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action d-flex gap-3 py-3 list-group-item-success" aria-current="true">
+
+                    <i class="bi bi-arrow-up" style="font-size: 2rem;"></i>
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+
+                        <div>
+                            <h6 class="mb-0">Credit</h6>
+                            <span class="">750 CZK</span>
+                        </div>
+                        <small class="opacity-50 text-nowrap">2023-04-18 15:23</small>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action d-flex gap-3 py-3 list-group-item-success" aria-current="true">
+
+                    <i class="bi bi-arrow-up" style="font-size: 2rem;"></i>
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">Credit</h6>
+                            <span class="">750 CZK</span>
+                        </div>
+                        <small class="opacity-50 text-nowrap">2023-04-18 15:23</small>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action d-flex gap-3 py-3 list-group-item-danger" aria-current="true">
+
+                    <i class="bi bi-arrow-down" style="font-size: 2rem;"></i>
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">Debit</h6>
+                            <span class="">750 CZK</span>
+                        </div>
+                        <small class="opacity-50 text-nowrap">2023-04-18 15:23</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer with menu -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+        </footer>
+    </div>
+    <!-- / footer with menu -->
+
+</body>
+</html>
