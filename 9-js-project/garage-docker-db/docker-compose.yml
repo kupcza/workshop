@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  garage_db:
+    image: mariadb:latest
+    container_name: garage_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./schema:/docker-entrypoint-initdb.d
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    networks:
+      - ntwrk
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    restart: always
+    environment:
+      ADMINER_DEFAULT_SERVER: garage_db
+    ports:
+      - 8080:8080
+    expose:
+      - 8080
+    networks:
+      - ntwrk
+
+volumes:
+  db:
+  data:
+  adminer:
+
+networks:
+  ntwrk:
